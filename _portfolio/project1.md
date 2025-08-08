@@ -1,18 +1,18 @@
 ---
 title: Living Room
-subtitle: Spacious and comfortable living area
+subtitle: Cozy Alpine-style retreat
 image: assets/img/portfolio/01-full.jpg
 alt: Living room
 
 caption:
   title: Living Room
-  subtitle: Comfort & Style
+  subtitle: Alpine Comfort
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Relax in our beautifully furnished living room with stunning mountain views. Features include comfortable seating for 4-6 people, smart TV with streaming services, and direct access to the balcony.
+Relax in our cozy living room featuring authentic Alpine wood ceiling, comfortable gray sofa, and flat-screen TV. The traditional red Alpine throw adds a touch of local charm to this peaceful space.
 
 {:.list-inline}
-- Size: 30 square meters
-- Capacity: 4-6 people
-- Features: Smart TV, Mountain views
+- Style: Alpine wood ceiling & beams
+- Seating: Comfortable sofa & armchair
+- Entertainment: Flat-screen TV
 

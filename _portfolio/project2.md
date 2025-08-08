@@ -1,18 +1,18 @@
 ---
 title: Master Bedroom
-subtitle: Peaceful retreat with Alpine views
+subtitle: Attic bedroom with skylight
 image: assets/img/portfolio/02-full.jpg
 alt: Master Bedroom
 
 caption:
-  title: Bedroom
-  subtitle: Rest & Relaxation
+  title: Master Bedroom
+  subtitle: Skylight Views
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Enjoy a restful night's sleep in our master bedroom featuring a comfortable queen-size bed, ample storage, and blackout curtains for your comfort. Wake up to breathtaking mountain views.
+Sleep peacefully in this charming attic bedroom with authentic wood paneling throughout. The skylight above provides natural light and stargazing opportunities, while the comfortable double bed ensures a restful night.
 
 {:.list-inline}
-- Bed: Queen size
-- Storage: Wardrobe & dresser
-- Features: Blackout curtains, Mountain views
+- Bed: Comfortable double bed
+- Features: Skylight, wood paneling
+- Style: Authentic Alpine design
 

@@ -1,18 +1,18 @@
 ---
-title: Location
-subtitle: In the heart of Briançon
+title: Mountain Views
+subtitle: Breathtaking Alpine panorama
 image: assets/img/portfolio/06-full.jpg
-alt: Location
+alt: Mountain Views
 
 caption:
-  title: Location
-  subtitle: Prime Position
+  title: Views
+  subtitle: Alpine Paradise
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
-Perfectly located in Briançon, the highest city in France. Walking distance to restaurants, shops, and ski lifts. Easy access to Serre Chevalier ski resort and numerous hiking trails.
+Wake up to spectacular mountain views every morning. The garden area offers unobstructed vistas of the surrounding Alps, perfect for outdoor relaxation and appreciating the natural beauty of Briançon.
 
 {:.list-inline}
-- Distance to ski lifts: 10 minutes
-- Distance to town center: 5 minutes
-- Parking: Available on-site
+- Views: Panoramic Alpine mountains
+- Setting: Garden with open space
+- Perfect for: Photography & relaxation
 

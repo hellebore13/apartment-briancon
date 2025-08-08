@@ -1,18 +1,18 @@
 ---
-title: Balcony & Views
-subtitle: Breathtaking Alpine panorama
+title: House & Garden
+subtitle: Charming exterior with mountain backdrop
 image: assets/img/portfolio/05-full.jpg
-alt: Balcony Views
+alt: House Exterior
 
 caption:
-  title: Balcony
-  subtitle: Mountain Views
+  title: Exterior
+  subtitle: Alpine Setting
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Step out onto the private balcony and take in the spectacular views of the French Alps. Perfect for morning coffee or evening aperitifs while watching the sunset over the mountains.
+Our charming house sits in a beautiful Alpine setting with colorful flower gardens and stunning mountain views. The peaceful residential area offers tranquility while being close to town amenities.
 
 {:.list-inline}
-- View: Panoramic mountain vista
-- Features: Outdoor seating
-- Orientation: South-facing for maximum sun
+- Setting: Quiet residential area
+- Garden: Colorful flowers & greenery
+- Views: Spectacular mountain backdrop
 

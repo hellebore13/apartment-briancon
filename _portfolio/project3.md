@@ -1,18 +1,18 @@
 ---
-title: Fully Equipped Kitchen
-subtitle: Cook like a chef with modern appliances
+title: Compact Kitchen
+subtitle: Everything you need for cooking
 image: assets/img/portfolio/03-full.jpg
 alt: Kitchen
 
 caption:
   title: Kitchen
-  subtitle: Modern & Functional
+  subtitle: Fully Equipped
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Prepare delicious meals in our fully equipped kitchen featuring modern appliances, ample counter space, and all the cookware you need. Perfect for cooking local ingredients from the nearby markets.
+Our compact yet efficient kitchen features modern appliances including a water heater, coffee maker, and all essential cooking equipment. The wood ceiling adds Alpine charm to this functional space.
 
 {:.list-inline}
-- Appliances: Oven, dishwasher, microwave
-- Equipment: Complete cookware set
-- Dining: Seats 4-6 people
+- Appliances: Coffee maker, water heater
+- Storage: Ample cabinet space
+- Style: Wood ceiling with Alpine charm
 
