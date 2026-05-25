@@ -34,13 +34,13 @@ en-AU:
 # ------
 fr: &DEFAULT_FR
   nav:
-    - title: "Infos reservation"
+    - title: "Infos réservation"
       section: services
     - title: "Galerie"
       section: portfolio
     - title: "Appartement"
       section: about
-    - title: "Activites"
+    - title: "Activités"
       section: timeline
     - title: "Demande"
       section: contact

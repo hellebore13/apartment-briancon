@@ -15,12 +15,12 @@ fr_caption:
   title: Vue
   subtitle: Panorama alpin
 fr_content: |
-  Profitez chaque matin d'une vue sur les montagnes. Le jardin offre un espace ouvert sur les Alpes, ideal pour se detendre dehors et apprecier le paysage de Briancon.
+  Profitez chaque matin d'une vue sur les montagnes. Le jardin offre un espace ouvert sur les Alpes, idéal pour se détendre dehors et apprécier le paysage de Briançon.
 
   {:.list-inline}
   - Vue : panorama sur les montagnes alpines
   - Cadre : jardin avec espace ouvert
-  - Ideal pour : detente et photos
+  - Idéal pour : détente et photos
 ---
 Wake up to spectacular mountain views every morning. The garden area offers unobstructed vistas of the surrounding Alps, perfect for outdoor relaxation and appreciating the natural beauty of Briançon.
 

@@ -9,16 +9,16 @@ caption:
   subtitle: Fully Equipped
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 fr_title: Cuisine compacte
-fr_subtitle: Tout le necessaire pour cuisiner
+fr_subtitle: Tout le nécessaire pour cuisiner
 fr_alt: Cuisine
 fr_caption:
   title: Cuisine
-  subtitle: Bien equipee
+  subtitle: Bien équipée
 fr_content: |
-  La cuisine compacte et pratique comprend les equipements essentiels, dont une bouilloire, une cafetiere et le materiel de cuisine necessaire. Le plafond en bois ajoute une touche alpine a cet espace fonctionnel.
+  La cuisine compacte et pratique comprend les équipements essentiels, dont une bouilloire, une cafetière et le matériel de cuisine nécessaire. Le plafond en bois ajoute une touche alpine à cet espace fonctionnel.
 
   {:.list-inline}
-  - Equipements : cafetiere, bouilloire
+  - Équipements : cafetière, bouilloire
   - Rangement : placards pratiques
   - Style : plafond en bois et charme alpin
 ---

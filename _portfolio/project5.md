@@ -9,13 +9,13 @@ caption:
   subtitle: Alpine Setting
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 fr_title: Maison & jardin
-fr_subtitle: Exterieur charmant avec vue montagne
-fr_alt: Exterieur de la maison
+fr_subtitle: Extérieur charmant avec vue montagne
+fr_alt: Extérieur de la maison
 fr_caption:
-  title: Exterieur
+  title: Extérieur
   subtitle: Cadre alpin
 fr_content: |
-  La maison se situe dans un cadre alpin agreable, avec jardin fleuri et vue sur les montagnes. Le quartier residentiel est calme tout en restant proche des commodites de Briancon.
+  La maison se situe dans un cadre alpin agréable, avec jardin fleuri et vue sur les montagnes. Le quartier résidentiel est calme tout en restant proche des commodités de Briançon.
 
   {:.list-inline}
   - Cadre : quartier residentiel calme

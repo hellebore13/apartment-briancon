@@ -27,7 +27,7 @@ $(function() {
           $("#success > .alert-success").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
           $("#success > .alert-success")
-            .append("<strong>" + (isFrench ? "Votre demande a ete envoyee." : "Your inquiry has been sent.") + "</strong>");
+            .append("<strong>" + (isFrench ? "Votre demande a été envoyée." : "Your inquiry has been sent.") + "</strong>");
           $("#success > .alert-success").append("</div>");
           $form.trigger("reset");
         },
@@ -37,7 +37,7 @@ $(function() {
             .append("</button>");
           $("#success > .alert-danger")
             .append($("<strong>").text(isFrench ?
-              "La demande n'a pas pu etre envoyee. Veuillez reessayer ou ecrire directement a hellebore13@gmail.com." :
+              "La demande n'a pas pu être envoyée. Veuillez réessayer ou écrire directement à hellebore13@gmail.com." :
               "The inquiry could not be sent. Please try again or email hellebore13@gmail.com directly."));
           $("#success > .alert-danger").append("</div>");
         },

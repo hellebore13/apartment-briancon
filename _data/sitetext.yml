@@ -178,91 +178,91 @@ en-AU:
 # ------
 fr: &DEFAULT_FR
   header:
-    title: Appartement d'ete a Briancon
-    text: Randonnee, velo & teletravail dans les Alpes
+    title: "Appartement d'été à Briançon"
+    text: Randonnée, vélo & télétravail dans les Alpes
     button: Voir les infos
     buttonlink: "#services"
 
   services:
-    title: "Informations de reservation"
-    text: "Les details essentiels pour organiser un sejour d'ete"
+    title: "Informations de réservation"
+    text: "Les détails essentiels pour organiser un séjour d'été"
     section: services
     list:
-      - title: "Jusqu'a 4 personnes"
+      - title: "Jusqu'à 4 personnes"
         desc: "Appartement de 45 m2 avec 2 chambres : une chambre double et une chambre avec deux lits simples."
         icon: fas fa-bed
-      - title: "Disponibilite d'ete"
-        desc: "Disponible en juillet, aout et premiere quinzaine de septembre, avec un sejour minimum de 3 nuits."
+      - title: "Disponibilité d'été"
+        desc: "Disponible en juillet, août et première quinzaine de septembre, avec un séjour minimum de 3 nuits."
         icon: fas fa-calendar-alt
       - title: "80-85 EUR / nuit"
-        desc: "Tarif indicatif par nuit. La taxe de sejour peut s'ajouter et sera indiquee avant la reservation."
+        desc: "Tarif indicatif par nuit. La taxe de séjour peut s'ajouter et sera indiquée avant la réservation."
         icon: fas fa-euro-sign
-      - title: "Parking & acces"
-        desc: "Parking pour une voiture. La vieille ville de Briancon est a environ 3 km et la gare a environ 2 km."
+      - title: "Parking & accès"
+        desc: "Parking pour une voiture. La vieille ville de Briançon est à environ 3 km et la gare à environ 2 km."
         icon: fas fa-car
-      - title: "Pret pour le teletravail"
-        desc: "WiFi haut debit, cuisine compacte et cadre alpin calme pour les sejours plus longs."
+      - title: "Prêt pour le télétravail"
+        desc: "WiFi haut débit, cuisine compacte et cadre alpin calme pour les séjours plus longs."
         icon: fas fa-wifi
       - title: "Linge fourni"
-        desc: "Draps et serviettes fournis. Arrivee a partir de 16h00 et depart jusqu'a 10h00."
+        desc: "Draps et serviettes fournis. Arrivée à partir de 16h00 et départ jusqu'à 10h00."
         icon: fas fa-clock
 
   portfolio:
     title: "Galerie"
-    text: "Decouvrez l'appartement et ses environs"
+    text: "Découvrez l'appartement et ses environs"
     section: portfolio
     closebutton: "Fermer"
 
   timeline:
-    title: "L'ete a Briancon"
-    text: "Un point de depart pratique pour les journees en montagne"
+    title: "L'été à Briançon"
+    text: "Un point de départ pratique pour les journées en montagne"
     section: timeline
     events:
-      - title: "Randonnees"
-        year: "Ete"
-        desc: "Briancon est une bonne base pour des randonnees a la journee, des vallees d'altitude, des lacs et des itineraires panoramiques."
+      - title: "Randonnées"
+        year: "Été"
+        desc: "Briançon est une bonne base pour des randonnées à la journée, des vallées d'altitude, des lacs et des itinéraires panoramiques."
         image: assets/img/timeline/1.jpg
-        alt: Randonnee alpine
-      - title: "Itineraires velo"
-        year: "Ete"
-        desc: "Venez avec votre velo de route ou louez sur place pour profiter des cols alpins, des routes de vallee et des paysages de montagne."
+        alt: Randonnée alpine
+      - title: "Itinéraires vélo"
+        year: "Été"
+        desc: "Venez avec votre vélo de route ou louez sur place pour profiter des cols alpins, des routes de vallée et des paysages de montagne."
         image: assets/img/timeline/2.jpg
         alt: Velo dans les Alpes
       - title: "Vieille ville Vauban"
-        year: "Toute l'annee"
-        desc: "Explorez la vieille ville fortifiee de Briancon, situee a environ 3 km de l'appartement."
+        year: "Toute l'année"
+        desc: "Explorez la vieille ville fortifiée de Briançon, située à environ 3 km de l'appartement."
         image: assets/img/timeline/3.jpg
-        alt: Vieille ville de Briancon
-      - title: "Marches & cuisine locale"
+        alt: Vieille ville de Briançon
+      - title: "Marchés & cuisine locale"
         year: "Chaque semaine"
-        desc: "Profitez des marches locaux, des produits regionaux, des cafes et des soirees d'ete apres une journee dehors."
+        desc: "Profitez des marchés locaux, des produits régionaux, des cafés et des soirées d'été après une journée dehors."
         image: assets/img/timeline/4.jpg
-        alt: Marche local
+        alt: Marché local
         align: right
 
   about:
-    title: "A propos de l'appartement"
-    text: "Une base compacte pour l'ete dans les Alpes"
-    body: "Cet appartement de 45 m2 accueille jusqu'a 4 voyageurs dans 2 chambres et convient aux sejours d'ete pour la randonnee, le velo, le tourisme alpin et le teletravail. Il comprend une place de parking, le WiFi haut debit, une cuisine compacte, une vue sur les montagnes, les serviettes et les draps. La vieille ville de Briancon est a environ 3 km et la gare de Briancon a environ 2 km. L'appartement est disponible en juillet, aout et pendant la premiere quinzaine de septembre, avec un sejour minimum de 3 nuits. Tarif indicatif : 80-85 EUR par nuit. L'arrivee se fait a partir de 16h00 et le depart jusqu'a 10h00. Des reductions pour les sejours plus longs peuvent etre discutees."
+    title: "À propos de l'appartement"
+    text: "Une base compacte pour l'été dans les Alpes"
+    body: "Cet appartement de 45 m2 accueille jusqu'à 4 voyageurs dans 2 chambres et convient aux séjours d'été pour la randonnée, le vélo, le tourisme alpin et le télétravail. Il comprend une place de parking, le WiFi haut débit, une cuisine compacte, une vue sur les montagnes, les serviettes et les draps. La vieille ville de Briançon est à environ 3 km et la gare de Briançon à environ 2 km. L'appartement est disponible en juillet, août et pendant la première quinzaine de septembre, avec un séjour minimum de 3 nuits. Tarif indicatif : 80-85 EUR par nuit. L'arrivée se fait à partir de 16h00 et le départ jusqu'à 10h00. Des réductions pour les séjours plus longs peuvent être discutées."
     section: about
 
   contact:
-    title: "Demander les disponibilites"
-    text: "Sejours d'ete a partir de 3 nuits, de juillet a mi-septembre, 80-85 EUR par nuit. Des reductions pour les sejours plus longs peuvent etre discutees."
+    title: "Demander les disponibilités"
+    text: "Séjours d'été à partir de 3 nuits, de juillet à mi-septembre, 80-85 EUR par nuit. Des réductions pour les séjours plus longs peuvent être discutées."
     section: contact
     name: "Nom*"
     name-validation: "Veuillez saisir votre nom."
     email: "Email*"
     email-validation: "Veuillez saisir votre adresse email."
-    phone: "Telephone"
-    phone-validation: "Veuillez saisir votre numero de telephone."
-    message: "Message* - dates souhaitees, nombre de voyageurs et questions"
+    phone: "Téléphone"
+    phone-validation: "Veuillez saisir votre numéro de téléphone."
+    message: "Message* - dates souhaitées, nombre de voyageurs et questions"
     message-validation: "Veuillez saisir un message."
-    subject: "Demande de reservation appartement Briancon"
+    subject: "Demande de réservation appartement Briançon"
     submit: "Envoyer la demande"
 
   footer:
-    legal: "Mentions legales & confidentialite"
+    legal: "Mentions légales & confidentialité"
 fr-FR:
   <<: *DEFAULT_FR
 

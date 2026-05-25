@@ -9,17 +9,17 @@ caption:
   subtitle: Skylight Views
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 fr_title: Chambre principale
-fr_subtitle: Chambre mansardee avec velux
+fr_subtitle: Chambre mansardée avec velux
 fr_alt: Chambre principale
 fr_caption:
   title: Chambre principale
   subtitle: Lumiere naturelle
 fr_content: |
-  Dormez paisiblement dans cette chambre mansardee avec boiseries alpines. Le velux apporte de la lumiere naturelle et une ambiance agreable, tandis que le lit double assure une nuit confortable.
+  Dormez paisiblement dans cette chambre mansardée avec boiseries alpines. Le velux apporte de la lumière naturelle et une ambiance agréable, tandis que le lit double assure une nuit confortable.
 
   {:.list-inline}
   - Lit : lit double confortable
-  - Equipements : velux, boiseries
+  - Équipements : velux, boiseries
   - Style : ambiance alpine authentique
 ---
 Sleep peacefully in this charming attic bedroom with authentic wood paneling throughout. The skylight above provides natural light and stargazing opportunities, while the comfortable double bed ensures a restful night.
