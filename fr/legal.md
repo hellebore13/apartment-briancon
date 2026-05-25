@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mentions légales & confidentialité
+description: "Mentions légales et politique de confidentialité du site de location d'appartement d'été Hellebore 13 à Briançon."
 locale: fr
 translation_key: legal
 permalink: /fr/legal

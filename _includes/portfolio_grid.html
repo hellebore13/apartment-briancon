@@ -13,9 +13,11 @@
       {% for project in site.portfolio %}
       {% assign caption_title = project.caption.title %}
       {% assign caption_subtitle = project.caption.subtitle %}
+      {% assign caption_alt = project.alt | default: caption_title %}
       {% if current_locale contains "fr" and project.fr_caption %}
         {% assign caption_title = project.fr_caption.title %}
         {% assign caption_subtitle = project.fr_caption.subtitle %}
+        {% assign caption_alt = project.fr_alt | default: caption_title %}
       {% endif %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
@@ -24,7 +26,7 @@
               <i class="{{ site.data.style.portfolio-icon | default: 'fas fa-plus fa-3x' }}"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ project.caption.thumbnail | relative_url }}" alt="">
+          <img class="img-fluid" src="{{ project.caption.thumbnail | relative_url }}" alt="{{ caption_alt | escape }}">
         </a>
         <div class="portfolio-caption">
           <h4>{{ caption_title }}</h4>

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Legal & Privacy
+description: "Legal notice and privacy policy for the Hellebore 13 summer apartment rental website in Briançon."
 locale: en-US
 translation_key: legal
 permalink: /en/legal

@@ -17,10 +17,11 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://hellebore13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/apartment-briancon" # the subpath of your site, e.g. /blog
 
-title      : Briançon Summer Apartment Rental
+title      : Hellebore 13 - Briançon
 email      : hellebore13@gmail.com #this is also the email contact forms will go to
-description: "Summer apartment rental in Briançon for hikers, cyclists, Alpine tourism, and remote-work stays."
+description: "Appartement d'été à Briançon pour randonnée, vélo, tourisme alpin et télétravail."
 author     : Marielle Aymard
+social_image: "/assets/img/contact-bg.jpeg"
 taxesejour_code: HEV754HTP
 publisher_name: "Marielle Aymard"
 publisher_address: "35 rue Jean Bayle, 05100 Villard-Saint-Pancrace, France"
@@ -73,3 +74,4 @@ formspree_form_path: "f/mwvznzzr"
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap

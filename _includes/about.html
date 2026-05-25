@@ -14,5 +14,17 @@
         <div class="large text-muted">{{ text.about.body | markdownify }}</div>
       </div>
     </div>
+    {% if text.about.local_title or text.about.local_body %}
+    <div class="row mt-4">
+      <div class="col-lg-8 mx-auto text-center">
+        {% if text.about.local_title %}
+        <h3 class="h4">{{ text.about.local_title }}</h3>
+        {% endif %}
+        {% if text.about.local_body %}
+        <div class="text-muted">{{ text.about.local_body | markdownify }}</div>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
   </div>
 </section>

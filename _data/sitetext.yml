@@ -80,6 +80,8 @@ en: &DEFAULT_EN
     title: "About the Apartment"
     text: "A compact summer base in the Alps"
     body: "This 45 m2 apartment sleeps up to 4 guests across 2 bedrooms and is set up for summer hiking, cycling, general Alpine tourism, and remote-work stays. It includes parking for one car, high-speed WiFi, a compact kitchen, mountain views, towels, and bed linen. Briançon old town is about 3 km away, and Briançon train station is about 2 km away. The apartment is available in July, August, and the first half of September, with a 3-night minimum stay. Indicative rate: 80-85 EUR per night. Check-in is from 16:00 and check-out is until 10:00. Discounts for longer stays can be discussed."
+    local_title: "Summer stays around Briançon"
+    local_body: "The apartment is a practical base for hiking near Briançon, cycling classic Alpine roads and cols, visiting the Vauban old town, and exploring summer destinations such as the Clarée valley, the Écrins area, Serre Chevalier, and Villard-Saint-Pancrace."
     section: about
 
   # clients:
@@ -244,6 +246,8 @@ fr: &DEFAULT_FR
     title: "À propos de l'appartement"
     text: "Une base compacte pour l'été dans les Alpes"
     body: "Cet appartement de 45 m2 accueille jusqu'à 4 voyageurs dans 2 chambres et convient aux séjours d'été pour la randonnée, le vélo, le tourisme alpin et le télétravail. Il comprend une place de parking, le WiFi haut débit, une cuisine compacte, une vue sur les montagnes, les serviettes et les draps. La vieille ville de Briançon est à environ 3 km et la gare de Briançon à environ 2 km. L'appartement est disponible en juillet, août et pendant la première quinzaine de septembre, avec un séjour minimum de 3 nuits. Tarif indicatif : 80-85 EUR par nuit. L'arrivée se fait à partir de 16h00 et le départ jusqu'à 10h00. Des réductions pour les séjours plus longs peuvent être discutées."
+    local_title: "Séjour d'été autour de Briançon"
+    local_body: "L'appartement est une base pratique pour la randonnée à Briançon, les itinéraires vélo et les cols alpins, la visite de la Cité Vauban, ainsi que les sorties d'été vers la vallée de la Clarée, les Écrins, Serre Chevalier et Villard-Saint-Pancrace."
     section: about
 
   contact:
