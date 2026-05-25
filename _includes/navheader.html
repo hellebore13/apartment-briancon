@@ -1,0 +1,65 @@
+{% assign current_locale = page.locale | default: site.locale %}
+{% assign lang_base = site.baseurl %}
+{% if current_locale contains "fr" %}
+  {% assign lang_base = site.baseurl | append: "/fr" %}
+{% endif %}
+{% assign nav_items = site.data.navigation[current_locale].nav %}
+{% assign text = site.data.sitetext[current_locale] %}
+{% assign en_url = site.baseurl | append: "/" %}
+{% assign fr_url = site.baseurl | append: "/fr/" %}
+{% if page.translation_key == "legal" %}
+  {% assign en_url = site.baseurl | append: "/legal" %}
+  {% assign fr_url = site.baseurl | append: "/fr/legal" %}
+{% endif %}
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="{{ lang_base }}/#page-top">
+      {%- if site.logo -%}
+        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path | relative_url }}"/>
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        {% for link in nav_items %}
+          <li class="nav-item">
+            {%- if link.url -%}
+              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            {%- elsif link.section -%}
+              <a class="nav-link js-scroll-trigger" href="{{ lang_base }}/#{{ link.section }}">{{ link.title }}</a>
+            {%- else -%}
+              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+            {%- endif -%}
+          </li>
+        {% endfor %}
+        <li class="nav-item language-switch">
+          <a class="nav-link{% unless current_locale contains 'fr' %} active{% endunless %}" href="{{ en_url }}">EN</a>
+          <span class="separator">|</span>
+          <a class="nav-link{% if current_locale contains 'fr' %} active{% endif %}" href="{{ fr_url }}">FR</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      {%- if text.header.title -%}
+      <div class="intro-lead-in">{{ text.header.title | markdownify }}</div>
+      {%- endif -%}
+      {%- if text.header.text -%}
+      <div class="intro-heading text-uppercase">{{ text.header.text | markdownify }}</div>
+      {%- endif -%}
+      {%- if text.header.button -%}
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ text.header.buttonlink }}">{{ text.header.button }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</header>

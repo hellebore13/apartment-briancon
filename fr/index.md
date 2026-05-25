@@ -1,5 +1,6 @@
 ---
 layout: home
-locale: en-US
+locale: fr
 translation_key: home
+permalink: /fr/
 ---

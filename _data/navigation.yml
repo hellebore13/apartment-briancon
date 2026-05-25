@@ -30,6 +30,23 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# French
+# ------
+fr: &DEFAULT_FR
+  nav:
+    - title: "Infos reservation"
+      section: services
+    - title: "Galerie"
+      section: portfolio
+    - title: "Appartement"
+      section: about
+    - title: "Activites"
+      section: timeline
+    - title: "Demande"
+      section: contact
+fr-FR:
+  <<: *DEFAULT_FR
+
 # Spanish
 # -------
 es: &DEFAULT_ES

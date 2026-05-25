@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Legal & Privacy
+locale: en-US
+translation_key: legal
 ---
 <div class="col-lg-12 text-center">
   <h2 class="section-heading text-uppercase">Legal & Privacy</h2>
@@ -31,7 +33,7 @@ This website presents a furnished summer apartment rental in Briancon and allows
 - Parking: 1 car parking space
 - Availability: July, August, and the first half of September
 - Minimum stay: 3 nights
-- Indicative rate: 80-85 EUR per night
+- Indicative rate: 80-85 EUR per night; discounts for longer stays can be discussed
 - Check-in: from 16:00
 - Check-out: until 10:00
 - Towels and bed linen: provided

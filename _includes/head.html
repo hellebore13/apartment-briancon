@@ -1,0 +1,73 @@
+<head>
+  {% assign current_locale = page.locale | default: site.locale %}
+  {% if site.analytics.google %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag("js", new Date());
+    gtag("config", "{{ site.analytics.google }}");
+  </script>
+  {% endif %}
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  {% assign alternate_en = "/" %}
+  {% assign alternate_fr = "/fr/" %}
+  {% if page.translation_key == "legal" %}
+    {% assign alternate_en = "/legal" %}
+    {% assign alternate_fr = "/fr/legal" %}
+  {% endif %}
+  <link rel="alternate" hreflang="en" href="{{ alternate_en | relative_url | prepend: site.url }}">
+  <link rel="alternate" hreflang="fr" href="{{ alternate_fr | relative_url | prepend: site.url }}">
+
+  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
+  <link href="{{ '/assets/css/all.min.css' | relative_url }}" rel="stylesheet" type="text/css">
+  {% if site.data.style.fonts_urls %}
+    {% for font_url in site.data.style.fonts_urls %}
+      <link href="{{ font_url }}" rel="stylesheet" type="text/css">
+    {% endfor %}
+  {% else %}
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+  {% endif %}
+  <link href="{{ '/assets/css/agency.css' | relative_url }}" rel="stylesheet" />
+
+  <style>
+    .language-switch .nav-link {
+      padding-left: 0.35rem;
+      padding-right: 0.35rem;
+    }
+    .language-switch .active {
+      color: #fff !important;
+      font-weight: 700;
+    }
+    .language-switch .separator {
+      color: rgba(255,255,255,.45);
+      padding: .5rem .15rem;
+    }
+    @media only screen and (max-width: 991px) {
+      .language-switch {
+        display: flex;
+        align-items: center;
+      }
+    }
+    {% if page.layout == "page" %}
+    #pagecontainer {
+      padding-top: 150px;
+    }
+    @media only screen and (max-width: 991px) {
+      #pagecontainer {
+        padding-top: 100px;
+      }
+    }
+    {% endif %}
+  </style>
+</head>
