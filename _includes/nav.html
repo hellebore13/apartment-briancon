@@ -1,13 +1,13 @@
 {% assign current_locale = page.locale | default: site.locale %}
-{% assign lang_base = site.baseurl %}
+{% assign lang_base = site.baseurl | append: "/en" %}
 {% if current_locale contains "fr" %}
   {% assign lang_base = site.baseurl | append: "/fr" %}
 {% endif %}
 {% assign nav_items = site.data.navigation[current_locale].nav %}
-{% assign en_url = site.baseurl | append: "/" %}
+{% assign en_url = site.baseurl | append: "/en/" %}
 {% assign fr_url = site.baseurl | append: "/fr/" %}
 {% if page.translation_key == "legal" %}
-  {% assign en_url = site.baseurl | append: "/legal" %}
+  {% assign en_url = site.baseurl | append: "/en/legal" %}
   {% assign fr_url = site.baseurl | append: "/fr/legal" %}
 {% endif %}
 
