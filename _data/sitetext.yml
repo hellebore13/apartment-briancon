@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "Available in July, August, and the first half of September, with a 3-night minimum stay."
         icon: fas fa-calendar-alt
       - title: "80-85 EUR / Night"
-        desc: "Indicative nightly rate. Discounts for longer stays can be discussed. Taxe de séjour may apply and will be stated before booking."
+        desc: "Indicative nightly rate, including taxe de séjour. Discounts for longer stays can be discussed."
         icon: fas fa-euro-sign
       - title: "Parking & Access"
         desc: "Parking for one car. Briançon old town is about 3 km away and Briançon train station is about 2 km away."
@@ -195,7 +195,7 @@ fr: &DEFAULT_FR
         desc: "Disponible en juillet, août et première quinzaine de septembre, avec un séjour minimum de 3 nuits."
         icon: fas fa-calendar-alt
       - title: "80-85 EUR / nuit"
-        desc: "Tarif indicatif par nuit. La taxe de séjour peut s'ajouter et sera indiquée avant la réservation."
+        desc: "Tarif indicatif par nuit, taxe de séjour incluse. Des réductions pour les séjours plus longs peuvent être discutées."
         icon: fas fa-euro-sign
       - title: "Parking & accès"
         desc: "Parking pour une voiture. La vieille ville de Briançon est à environ 3 km et la gare à environ 2 km."

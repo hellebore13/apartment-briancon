@@ -18,6 +18,9 @@ This website presents a furnished summer apartment rental in Briancon and allows
 - Publisher postal address: {{ site.publisher_address }}
 - Publisher phone: {{ site.publisher_phone }}
 - Contact: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+- SIRET: {{ site.siret_status }}
+- RCS: {{ site.rcs_status }}
+- Intra-community VAT number: {{ site.vat_status }}
 - Website: {{ site.url }}{{ site.baseurl }}/en/
 - Hosting provider: GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States
 - Taxe de sejour accommodation code: {{ site.taxesejour_code }}
@@ -38,9 +41,15 @@ This website presents a furnished summer apartment rental in Briancon and allows
 - Check-in: from 16:00
 - Check-out: until 10:00
 - Towels and bed linen: provided
-- Payment and cancellation terms: {{ site.payment_terms }}
+- Payment terms: {{ site.payment_terms }}
+- Cancellation terms: {{ site.cancellation_terms }}
+- Rental contract: {{ site.contract_terms }}
 
-Taxe de sejour, when applicable, will be stated before the booking is confirmed and shown separately on any guest invoice or payment request.
+Taxe de sejour is included in the advertised price.
+
+**INTELLECTUAL PROPERTY**
+
+All text and photographs on this website are owned by {{ site.intellectual_property_owner }}, unless stated otherwise. Any reproduction, representation, modification, publication, or adaptation of all or part of the website content is prohibited without prior written permission.
 
 **PRIVACY POLICY**
 
@@ -64,7 +73,13 @@ We do not use analytics cookies. If you send a booking inquiry through the conta
 
 {% endif %}
 
-Booking inquiry data is used only to reply to your request, discuss availability, and manage a possible rental. It is not sold or shared for marketing.
+Booking inquiry data is used only to reply to your request, discuss availability, prepare or manage a seasonal rental contract, and communicate before, during, or after a stay. It is not sold or shared for marketing.
+
+{{ site.data_retention }}. In accordance with applicable data protection rules, you may request access, correction, deletion, limitation, or objection to the processing of your personal data by writing to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+
+**MEDIATION AND DISPUTES**
+
+{{ site.mediation_terms }}: <https://ec.europa.eu/consumers/odr>.
 
 **CHANGES**
 

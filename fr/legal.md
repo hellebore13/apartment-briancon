@@ -18,6 +18,9 @@ Ce site présente un appartement meublé de vacances à Briançon et permet aux 
 - Adresse postale de l'éditeur : {{ site.publisher_address_fr }}
 - Téléphone de l'éditeur : {{ site.publisher_phone_fr }}
 - Contact : <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+- SIRET : {{ site.siret_status_fr }}
+- RCS : {{ site.rcs_status_fr }}
+- Numéro de TVA intracommunautaire : {{ site.vat_status_fr }}
 - Site web : {{ site.url }}{{ site.baseurl }}/fr/
 - Hébergeur : GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis
 - Code hébergement taxe de séjour : {{ site.taxesejour_code }}
@@ -26,7 +29,7 @@ Ce site présente un appartement meublé de vacances à Briançon et permet aux 
 - Statut de l'annonce : {{ site.listing_status }}
 - Information de performance énergétique : {{ site.energy_performance_fr }}
 
-**INFORMATIONS DE RESERVATION**
+**INFORMATIONS DE RÉSERVATION**
 
 - Capacité : jusqu'à 4 voyageurs
 - Surface : 45 m2
@@ -38,9 +41,15 @@ Ce site présente un appartement meublé de vacances à Briançon et permet aux 
 - Arrivée : à partir de 16h00
 - Départ : jusqu'à 10h00
 - Draps et serviettes : fournis
-- Conditions de paiement et d'annulation : {{ site.payment_terms_fr }}
+- Conditions de paiement : {{ site.payment_terms_fr }}
+- Conditions d'annulation : {{ site.cancellation_terms_fr }}
+- Contrat de location : {{ site.contract_terms_fr }}
 
-La taxe de séjour, lorsqu'elle s'applique, sera indiquée avant la confirmation de la réservation et séparément sur toute facture ou demande de paiement.
+La taxe de séjour est incluse dans le prix affiché.
+
+**PROPRIÉTÉ INTELLECTUELLE**
+
+L'ensemble des textes et photographies présents sur ce site appartient à {{ site.intellectual_property_owner_fr }}, sauf mention contraire. Toute reproduction, représentation, modification, publication ou adaptation de tout ou partie du contenu du site est interdite sans autorisation écrite préalable.
 
 **CONFIDENTIALITÉ**
 
@@ -64,9 +73,15 @@ Nous n'utilisons pas de cookies d'analyse. Si vous envoyez une demande via le fo
 
 {% endif %}
 
-Les données de demande de réservation servent uniquement à répondre à votre demande, discuter des disponibilités et gérer une éventuelle location. Elles ne sont pas vendues ni partagées à des fins marketing.
+Les données de demande de réservation servent uniquement à répondre à votre demande, discuter des disponibilités, préparer ou gérer un contrat de location saisonnière et communiquer avant, pendant ou après un séjour. Elles ne sont pas vendues ni partagées à des fins marketing.
 
-**MISES A JOUR**
+{{ site.data_retention_fr }}. Conformément à la réglementation applicable, vous pouvez demander l'accès, la rectification, l'effacement, la limitation ou l'opposition au traitement de vos données personnelles en écrivant à <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+
+**MÉDIATION ET LITIGES**
+
+{{ site.mediation_terms_fr }} : <https://ec.europa.eu/consumers/odr>.
+
+**MISES À JOUR**
 
 Cette page peut être mise à jour pour des raisons personnelles, opérationnelles, légales ou réglementaires.
 
