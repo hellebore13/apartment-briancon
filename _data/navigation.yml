@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Amenities"
+    - title: "Booking Info"
       section: services
     - title: "Gallery"
       section: portfolio
