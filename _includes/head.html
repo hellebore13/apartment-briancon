@@ -62,6 +62,13 @@
       color: rgba(255,255,255,.45);
       padding: .5rem .15rem;
     }
+    section#contact {
+      background-image:
+        linear-gradient(rgba(33, 37, 41, 0.58), rgba(33, 37, 41, 0.72)),
+        url("{{ '/assets/img/contact-bg.jpeg' | relative_url }}");
+      background-position: center center;
+      background-size: cover;
+    }
     {% if page.layout == "page" %}
     #pagecontainer {
       padding-top: 150px;
