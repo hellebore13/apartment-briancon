@@ -14,13 +14,22 @@
 #theme: jekyll-agency
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://hellebore13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/apartment-briancon" # the subpath of your site, e.g. /blog
 
-title      : Briançon Apartment Rental
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Beautiful apartment for rent in Briançon - Your perfect mountain getaway in the French Alps"
-author     : Your Name
+title      : Briançon Summer Apartment Rental
+email      : hellebore13@gmail.com #this is also the email contact forms will go to
+description: "Summer apartment rental in Briançon for hikers, cyclists, Alpine tourism, and remote-work stays."
+author     : Private owner
+taxesejour_code: HEV754HTP
+publisher_name: "TODO: legal name of the site publisher"
+publisher_address: "TODO: publisher postal address"
+publisher_phone: "TODO: publisher phone number, if you want or need to display one"
+meuble_registration_number: "TODO: mairie meublé de tourisme registration number, if/when assigned"
+listing_status: "annonce d'un particulier"
+taxesejour_amount: "TODO: exact taxe de séjour amount/rate and whether it is included or collected separately"
+energy_performance: "TODO: verify whether DPE/energy performance information must be displayed for this rental"
+payment_terms: "TODO: deposit, payment schedule, cancellation terms, and accepted payment methods"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px

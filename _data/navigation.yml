@@ -19,8 +19,6 @@ en: &DEFAULT_EN
       section: about
     - title: "Attractions"
       section: timeline
-    - title: "Features"
-      section: team
     - title: "Book Now"
       section: contact
 en-US:

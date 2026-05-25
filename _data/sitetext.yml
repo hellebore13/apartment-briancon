@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Mountain Retreat in Briançon
-    text: Your Alpine Getaway
+    title: Summer Apartment in Briançon
+    text: Hiking, Cycling & Alpine Workdays
     button: Explore
     buttonlink: "#services"
 
   services:
-    title: "Amenities"
-    text: "Everything you need for a perfect stay"
+    title: "Apartment Highlights"
+    text: "A practical summer base for the French Alps"
     section: services
     list:
-      - title: "Fully Equipped Kitchen"
-        desc: "Modern kitchen with all appliances, cookware, and dining essentials for your culinary adventures."
-        icon: fas fa-utensils
-      - title: "High-Speed WiFi"
-        desc: "Stay connected with reliable internet throughout the apartment, perfect for remote work or streaming."
+      - title: "Sleeps 4"
+        desc: "Two-bedroom, 45 m2 apartment with a double bedroom and a twin bedroom for couples, friends, or a small family."
+        icon: fas fa-bed
+      - title: "Parking Included"
+        desc: "Parking for one car, with Briançon old town 3 km away and Briançon train station 2 km away."
+        icon: fas fa-car
+      - title: "Remote-Work Ready"
+        desc: "High-speed WiFi, a compact kitchen, and a calm Alpine setting for longer summer stays."
         icon: fas fa-wifi
-      - title: "Mountain Views"
-        desc: "Enjoy breathtaking views of the French Alps from the comfort of your apartment."
-        icon: fas fa-mountain
 
   portfolio:
     title: "Gallery"
@@ -38,39 +38,39 @@ en: &DEFAULT_EN
     closebutton: "Close"
 
   timeline:
-    title: "Local Attractions"
-    text: "Discover what Briançon has to offer"
+    title: "Summer in Briançon"
+    text: "Easy access to Alpine days out"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Skiing & Snowboarding"
-        year: "Winter Season"
-        desc: "Access to Serre Chevalier ski resort with over 250km of slopes. Just minutes away from world-class skiing and snowboarding."
+      - title: "Hiking Trails"
+        year: "Summer"
+        desc: "Use Briançon as a base for day hikes, high valleys, lakes, and scenic routes across the surrounding Alps."
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Historic Vauban Fortifications"
-        year: "Year-Round"
-        desc: "Explore the UNESCO World Heritage site of Vauban's fortifications. Rich history and stunning architecture await."
+        alt: Alpine hiking
+      - title: "Cycling Routes"
+        year: "Summer"
+        desc: "Bring your road bike or rent locally for classic Alpine climbs, valley rides, and mountain scenery."
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Hiking & Mountain Biking"
-        year: "Summer Season"
-        desc: "Hundreds of kilometers of marked trails for all levels. Experience the beauty of the Alps on foot or by bike."
+        alt: Alpine cycling
+      - title: "Vauban Old Town"
+        year: "Year-Round"
+        desc: "Explore Briançon's historic fortified old town, about 3 km from the apartment."
         image: assets/img/timeline/3.jpg
-        alt: Mountain trails
+        alt: Briançon old town
       - title: "Local Markets & Cuisine"
         year: "Weekly"
-        desc: "Experience authentic French Alpine culture at the local markets. Fresh produce, regional specialties, and artisan crafts."
+        desc: "Enjoy local markets, regional food, cafes, and relaxed summer evenings after a day outdoors."
         image: assets/img/timeline/4.jpg
-        alt:
+        alt: Local market
         align: right
     # end: "Book Your <br> Alpine <br> Adventure!"
 
   about:
     title: "About the Apartment"
-    text: "Your home in the Alps"
-    body: "Located in the heart of Briançon, the highest city in France, our apartment offers the perfect blend of comfort and Alpine charm. Whether you're here for winter sports, summer hiking, or simply to relax in the mountains, you'll find everything you need for an unforgettable stay."
+    text: "A compact summer base in the Alps"
+    body: "This 45 m2 apartment sleeps up to 4 guests across 2 bedrooms and is set up for summer hiking, cycling, general Alpine tourism, and remote-work stays. It includes parking for one car, high-speed WiFi, a compact kitchen, mountain views, towels, and bed linen. Briançon old town is about 3 km away, and Briançon train station is about 2 km away. The apartment is available in July, August, and the first half of September, with a 3-night minimum stay. Indicative rate: 80-85 EUR per night. Check-in is from 16:00 and check-out is until 10:00."
     section: about
 
   # clients:
@@ -129,8 +129,8 @@ en: &DEFAULT_EN
   #           icon: fab fa-linkedin-in
 
   contact:
-    title: "Book Your Stay"
-    text: "Get in touch for availability and bookings"
+    title: "Ask About Availability"
+    text: "Summer stays from 3 nights, July to mid-September, 80-85 EUR per night"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -143,8 +143,8 @@ en: &DEFAULT_EN
     subject: "Contact Form Submission"
     submit: "Send Message"
 
-  # footer:
-  #   legal: "Privacy Policy"
+  footer:
+    legal: "Legal & Privacy"
   #   social:
   #     - url: https://twitter.com
   #       icon: "fab fa-twitter"
