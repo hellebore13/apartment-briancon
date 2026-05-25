@@ -17,19 +17,28 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "Apartment Highlights"
-    text: "A practical summer base for the French Alps"
+    title: "Booking Information"
+    text: "Key details for planning a summer stay"
     section: services
     list:
       - title: "Sleeps 4"
-        desc: "Two-bedroom, 45 m2 apartment with a double bedroom and a twin bedroom for couples, friends, or a small family."
+        desc: "45 m2 apartment with 2 bedrooms: one double bedroom and one twin bedroom."
         icon: fas fa-bed
-      - title: "Parking Included"
-        desc: "Parking for one car, with Briançon old town 3 km away and Briançon train station 2 km away."
+      - title: "Summer Availability"
+        desc: "Available in July, August, and the first half of September, with a 3-night minimum stay."
+        icon: fas fa-calendar-alt
+      - title: "80-85 EUR / Night"
+        desc: "Indicative nightly rate. Taxe de séjour may apply and will be stated before booking."
+        icon: fas fa-euro-sign
+      - title: "Parking & Access"
+        desc: "Parking for one car. Briançon old town is about 3 km away and Briançon train station is about 2 km away."
         icon: fas fa-car
       - title: "Remote-Work Ready"
         desc: "High-speed WiFi, a compact kitchen, and a calm Alpine setting for longer summer stays."
         icon: fas fa-wifi
+      - title: "Linen Provided"
+        desc: "Towels and bed linen are provided. Check-in from 16:00 and check-out until 10:00."
+        icon: fas fa-clock
 
   portfolio:
     title: "Gallery"
@@ -130,7 +139,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Ask About Availability"
-    text: "Summer stays from 3 nights, July to mid-September, 80-85 EUR per night"
+    text: "Summer stays from 3 nights, July to mid-September, 80-85 EUR per night. Send your dates, group size, and questions."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -138,10 +147,10 @@ en: &DEFAULT_EN
     email-validation: "Please enter your email address."
     phone: "Phone Number"
     phone-validation: "Please enter your phone number."
-    message: "Message*"
+    message: "Message* - requested dates, group size, and questions"
     message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    subject: "Briançon apartment booking inquiry"
+    submit: "Send Booking Inquiry"
 
   footer:
     legal: "Legal & Privacy"
