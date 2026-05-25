@@ -11,6 +11,12 @@
     </div>
     <div class="row">
       {% for project in site.portfolio %}
+      {% assign caption_title = project.caption.title %}
+      {% assign caption_subtitle = project.caption.subtitle %}
+      {% if current_locale contains "fr" and project.fr_caption %}
+        {% assign caption_title = project.fr_caption.title %}
+        {% assign caption_subtitle = project.fr_caption.subtitle %}
+      {% endif %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
@@ -21,8 +27,8 @@
           <img class="img-fluid" src="{{ project.caption.thumbnail | relative_url }}" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>{{ project.caption.title }}</h4>
-          <p class="text-muted">{{ project.caption.subtitle }}</p>
+          <h4>{{ caption_title }}</h4>
+          <p class="text-muted">{{ caption_subtitle }}</p>
         </div>
       </div>
       {% endfor %}

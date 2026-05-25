@@ -42,8 +42,17 @@
 
   <style>
     .language-switch .nav-link {
+      display: inline-flex;
       padding-left: 0.35rem;
       padding-right: 0.35rem;
+      white-space: nowrap;
+    }
+    .language-switch {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
     .language-switch .active {
       color: #fff !important;
@@ -52,12 +61,6 @@
     .language-switch .separator {
       color: rgba(255,255,255,.45);
       padding: .5rem .15rem;
-    }
-    @media only screen and (max-width: 991px) {
-      .language-switch {
-        display: flex;
-        align-items: center;
-      }
     }
     {% if page.layout == "page" %}
     #pagecontainer {

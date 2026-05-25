@@ -30,6 +30,13 @@ listing_status: "annonce d'un particulier"
 taxesejour_amount: "TODO: exact taxe de séjour amount/rate and whether it is included or collected separately"
 energy_performance: "TODO: verify whether DPE/energy performance information must be displayed for this rental"
 payment_terms: "TODO: deposit, payment schedule, cancellation terms, and accepted payment methods"
+publisher_name_fr: "A completer : nom legal de l'editeur du site"
+publisher_address_fr: "A completer : adresse postale de l'editeur"
+publisher_phone_fr: "A completer : telephone de l'editeur, si vous souhaitez ou devez l'afficher"
+meuble_registration_number_fr: "A completer : numero d'enregistrement du meuble de tourisme attribue par la mairie, le cas echeant"
+taxesejour_amount_fr: "A completer : montant/taux exact de la taxe de sejour et precision sur son inclusion ou sa collecte separee"
+energy_performance_fr: "A verifier : obligation eventuelle d'afficher l'information DPE/performance energetique pour cette location"
+payment_terms_fr: "A completer : acompte, calendrier de paiement, conditions d'annulation et moyens de paiement acceptes"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px

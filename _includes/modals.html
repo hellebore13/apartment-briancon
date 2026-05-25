@@ -2,6 +2,18 @@
 {% assign text = site.data.sitetext[current_locale] %}
 
 {% for project in site.portfolio %}
+{% assign modal_title = project.title %}
+{% assign modal_subtitle = project.subtitle %}
+{% assign modal_alt = project.alt %}
+{% assign modal_content = project.content %}
+{% if current_locale contains "fr" %}
+  {% assign modal_title = project.fr_title | default: project.title %}
+  {% assign modal_subtitle = project.fr_subtitle | default: project.subtitle %}
+  {% assign modal_alt = project.fr_alt | default: project.alt %}
+  {% if project.fr_content %}
+    {% assign modal_content = project.fr_content | markdownify %}
+  {% endif %}
+{% endif %}
 <div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -14,10 +26,10 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="modal-body">
-              <h2 class="text-uppercase">{{ project.title }}</h2>
-              <p class="item-intro text-muted">{{ project.subtitle }}</p>
-              <img class="img-fluid d-block mx-auto" src="{{ project.image | relative_url }}" alt="{{ project.alt }}" />
-              <p>{{ project.content }}</p>
+              <h2 class="text-uppercase">{{ modal_title }}</h2>
+              <p class="item-intro text-muted">{{ modal_subtitle }}</p>
+              <img class="img-fluid d-block mx-auto" src="{{ project.image | relative_url }}" alt="{{ modal_alt }}" />
+              <p>{{ modal_content }}</p>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                 <i class="fas fa-times"></i>
                 {{ text.portfolio.closebutton | default: "Close" }}

@@ -14,17 +14,17 @@ permalink: /fr/legal
 Ce site presente un appartement meuble de vacances a Briancon et permet aux visiteurs d'envoyer directement une demande de reservation au proprietaire.
 
 - Editeur : proprietaire particulier
-- Nom legal de l'editeur : {{ site.publisher_name }}
-- Adresse postale de l'editeur : {{ site.publisher_address }}
-- Telephone de l'editeur : {{ site.publisher_phone }}
+- Nom legal de l'editeur : {{ site.publisher_name_fr }}
+- Adresse postale de l'editeur : {{ site.publisher_address_fr }}
+- Telephone de l'editeur : {{ site.publisher_phone_fr }}
 - Contact : <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 - Site web : {{ site.url }}{{ site.baseurl }}/fr/
 - Hebergeur : GitHub Pages, GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Etats-Unis
 - Code hebergement taxe de sejour : {{ site.taxesejour_code }}
-- Montant/taux de taxe de sejour : {{ site.taxesejour_amount }}
-- Numero d'enregistrement du meuble de tourisme : {{ site.meuble_registration_number }}
+- Montant/taux de taxe de sejour : {{ site.taxesejour_amount_fr }}
+- Numero d'enregistrement du meuble de tourisme : {{ site.meuble_registration_number_fr }}
 - Statut de l'annonce : {{ site.listing_status }}
-- Information de performance energetique : {{ site.energy_performance }}
+- Information de performance energetique : {{ site.energy_performance_fr }}
 
 **INFORMATIONS DE RESERVATION**
 
@@ -38,7 +38,7 @@ Ce site presente un appartement meuble de vacances a Briancon et permet aux visi
 - Arrivee : a partir de 16h00
 - Depart : jusqu'a 10h00
 - Draps et serviettes : fournis
-- Conditions de paiement et d'annulation : {{ site.payment_terms }}
+- Conditions de paiement et d'annulation : {{ site.payment_terms_fr }}
 
 La taxe de sejour, lorsqu'elle s'applique, sera indiquee avant la confirmation de la reservation et separement sur toute facture ou demande de paiement.
 
